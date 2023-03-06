@@ -15,6 +15,7 @@ long fat(long value)
     }
     else
     {
-        return(value * fat(value-1));
+        Console.WriteLine($"{value} x {value-1}!");
+        return (value * fat(value-1));
     }
 }
